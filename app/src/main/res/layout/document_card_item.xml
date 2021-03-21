@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/document_card"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@color/cardview_light_background"
+        card_view:cardCornerRadius="0dp"
+        card_view:cardElevation="1dp"
+        card_view:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_icon_height"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/id_list_type"
+                android:layout_width="@dimen/card_icon_width"
+                android:layout_height="@dimen/card_icon_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="0.5"
+                android:tag="image_tag"
+                card_view:srcCompat="@drawable/ic_launcher" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="18dp"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/id_list_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="2dp"
+                    android:text="FIRSTNAME LASTNAME"
+                    android:layout_alignParentLeft="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/nav_header_vertical_spacing"
+                    >
+
+                    <TextView
+                        android:id="@+id/id_list_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="bottom"
+                        android:text="CM12345678FGVF"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/id_list_created_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/fab_margin"
+                        android:text="TextView" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

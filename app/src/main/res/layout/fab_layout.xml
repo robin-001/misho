@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/passportFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:text="@string/scan_passport"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_passport"
+        android:visibility="invisible"
+        android:tooltipText="@string/scan_passport"
+        app:backgroundTint="@color/colorPrimaryDark"
+        app:fabSize="normal" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/nidFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:text="@string/scan_national_id"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_id_card"
+        android:visibility="invisible"
+        android:tooltipText="@string/scan_national_id"
+        app:backgroundTint="@color/yellow"
+        app:fabSize="normal" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/driverPermitFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_drivers_license"
+        android:visibility="invisible"
+        android:tooltipText="@string/scan_drivers_license"
+        app:backgroundTint="@color/red"
+        app:fabSize="normal" />
+</FrameLayout>

@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">MISHO</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">John Doe</string>
+    <string name="nav_header_subtitle">johndoe@company.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Barcode Reader Sample</string>
+    <string name="barcode_header">Click &quot;Read Barcode&quot; to read a barcode</string>
+    <string name="read_barcode">Read Barcode</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="barcode_success">Barcode read successfully</string>
+    <string name="barcode_failure">No barcode captured</string>
+    <string name="invalid_barcode">"%1$s is not a valid National ID barcode"</string>
+    <string name="duplicate_id">"A document with the same Document Number already exists"</string>
+    <string name="document_saved">"Document has been  saved to the local database"</string>
+    <string name="title_activity_document">DocumentActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="document_type">Type</string>
+    <string name="passport">Passport</string>
+    <string name="national_id">National ID</string>
+    <string name="drivers_license">Driver\'s icense</string>
+    <string name="visa">VISA</string>
+    <string name="photo_id">Photo ID</string>
+    <string name="unknown">Unknown</string>
+
+    <string name="document_number">Document Number</string>
+    <string name="identification_number">ID Number</string>
+    <string name="surname">Surname</string>
+    <string name="firstname">Firstname</string>
+    <string name="givennames">Given Names</string>
+    <string name="dob">Date of birth</string>
+    <string name="gender">Surname</string>
+    <string name="issuing_date">Issuing Date</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="issuing_authority">Issuing Authority</string>
+    <string name="nationality">Nationality</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="imei">Device IMEI</string>
+
+    <string name="doc_type">Document Type</string>
+    <string name="document_number_label">DOCUMENT NUMBER</string>
+    <string name="identification_number_label">IDENTIFICATION NUMBER</string>
+    <string name="surname_label">SURNAME</string>
+    <string name="given_names_label">GIVEN NAMES</string>
+    <string name="gender_label">GENDER</string>
+    <string name="dob_label">DATE OF BIRTH</string>
+    <string name="issuing_date_label">ISSUING DATE</string>
+    <string name="expiry_date_label">EXPIRY_DATE</string>
+    <string name="nationality_label">NATIONALITY</string>
+    <string name="issuing_authority_label">ISSUING AUTHORITY</string>
+    <string name="scan_passport">Passport</string>
+    <string name="scan_drivers_license">Driver\'s License</string>
+    <string name="scan_national_id">National Id</string>
+    <string name="sending">Sending data to server...</string>
+    <string name="mrz_failure">MRZ Capture failed</string>
+    <string name="title_activity_login">MISHO Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="Config">CONFIG</string>
+    <string name="login_title">Login</string>
+    <string name="login_message">Fetchin your information...</string>
+</resources>

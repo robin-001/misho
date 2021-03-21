@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#21409A</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="cardBackground">#03B1D3</color>
+    <color name="mishoPrimary">#21409A</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_80">#37474F</color>
+    <color name="yellow">#FFFFC107</color>
+    <color name="red">#FFF44336</color>
+
+
+    <!--For MRZ Reader -->
+    <color name="help_button_view">#ffcccccc</color> <!-- help button view background color -->
+    <color name="help_view">#ff404040</color> <!-- background color for entire help view -->
+    <color name="result_minor_text">#ffc0c0c0</color> <!-- source language text/label text color. For example, "OCR English" -->
+    <color name="result_text">#ffffffff</color> <!-- OCR result text color -->
+    <color name="result_view">#b0000000</color> <!-- result view background color -->
+    <color name="status_text">#ffffffff</color> <!-- status_view_top/status_view_bottom text color -->
+    <color name="status_top_text_background">#ffffffff</color> <!-- status_view_top text background color -->
+    <color name="translation_text">#00ccff</color> <!-- translation text color -->
+    <color name="viewfinder_corners">#ffffffff</color> <!-- four corner elements for viewfinder -->
+    <color name="viewfinder_frame">#ffd6d6d6</color> <!-- viewfinder rectangle -->
+    <color name="viewfinder_mask">#60000000</color>  <!-- viewfinder exterior darkened area -->
+</resources>
